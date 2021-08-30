@@ -1,11 +1,36 @@
-let dp = document.getElementsByClassName('dp');
+const  poro = document.querySelectorAll('.poro')
 
-console.log( poro);
-// Change the CSS
+poro.forEach(function(poro){
+    poro.style.background = 'red';
+    poro.style.color = '#ffff';
+    poro.style.padding = '20px';
 
-// dp.style.background = '#ffff'
+    // change a text
+    poro.textContent = 'I love coding is part of my life '
+
+})
+
+const dp = document.querySelectorAll('.dp')
+ 
+dp.forEach(function(dp){
+    dp.style.background = 'green';
+    dp.style.color = '#fff';
+    dp.style.padding = '20px';
+    dp.textContent = 'coding is what i choose '
+
+})
+
+
+// console.log(newLink);
+
+// newLink.className = 'link';
+
+// newLink.href = 'index.html';
+const newLink = document.createElement('a');
+newLink.appendChild( document.createTextNode('New link') );
+
+document.querySelector('.poro').appendChild(newLink);
+
+
 
  
-// let name =[1, 2, 3, 4, 5, 10, 8, 9]
-
-// console.log( name );
