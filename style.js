@@ -3,10 +3,10 @@ const  poro = document.querySelectorAll('.poro')
 poro.forEach(function(poro){
     poro.style.background = 'red';
     poro.style.color = '#ffff';
-    poro.style.padding = '20px';
+    poro.style.padding = '10px';
 
     // change a text
-    poro.textContent = 'I love coding is part of my life '
+    // poro.textContent = 'I love coding is part of my life '
 
 })
 
