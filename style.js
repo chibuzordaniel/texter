@@ -32,5 +32,13 @@ newLink.appendChild( document.createTextNode('New link') );
 document.querySelector('.poro').appendChild(newLink);
 
 
+// How to remove Event
 
- 
+
+
+const mege = document.querySelectorAll('.mege')
+
+mege[2].remove();
+
+
+
