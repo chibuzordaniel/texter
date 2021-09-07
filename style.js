@@ -41,4 +41,4 @@ const mege = document.querySelectorAll('.mege')
 mege[2].remove();
 
 
-
+console.log(mege)
