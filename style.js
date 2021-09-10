@@ -6,14 +6,14 @@ poro.forEach(function(poro){
     poro.style.padding = '10px';
 
     // change a text
-    // poro.textContent = 'I love coding is part of my life '
+    poro.textContent = 'I love coding is part of my life '
 
 })
 
 const dp = document.querySelectorAll('.dp')
  
 dp.forEach(function(dp){
-    dp.style.background = 'green';
+    dp.style.background = 'pink';
     dp.style.color = '#fff';
     dp.style.padding = '20px';
     dp.textContent = 'coding is what i choose '
