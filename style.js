@@ -13,7 +13,7 @@ poro.forEach(function(poro){
 const dp = document.querySelectorAll('.dp')
  
 dp.forEach(function(dp){
-    dp.style.background = 'pink';
+    dp.style.background = 'red';
     dp.style.color = '#fff';
     dp.style.padding = '20px';
     dp.textContent = 'coding is what i choose '
