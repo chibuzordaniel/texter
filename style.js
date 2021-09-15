@@ -14,9 +14,9 @@ const dp = document.querySelectorAll('.dp')
  
 dp.forEach(function(dp){
     dp.style.background = 'red';
-    dp.style.color = '#fff';
-    dp.style.padding = '20px';
-    dp.textContent = 'coding is what i choose '
+    dp.style.color = 'green';
+    dp.style.padding = '30px';
+    dp.textContent = 'coding is what i like '
 
 })
 
